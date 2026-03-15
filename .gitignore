@@ -1,0 +1,32 @@
+node_modules/
+.next/
+dist/
+out/
+build/
+*.sqlite
+*.sqlite3
+.env.local
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build artifacts
+.turbo/
